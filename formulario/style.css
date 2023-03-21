@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #27282D;
+}
+
+.form {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+
+    
+.form input {
+    display: block;
+    margin: 10px auto;
+    max-width: 400px;
+    width: 100%;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 2%;
+    text-align: center;
+    
+    
+}
+
+.form textarea {
+    margin: 10px auto;
+    max-width: 400px;
+    width: 100%;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 2%;
+    text-align: center;
+    resize: vertical;
+    display: block;
+}
